@@ -14,7 +14,7 @@ module.exports = {
             return response.status(400).json('Ong não encontrada');
         }
         
-        return response.json({ong});
+        return response.json(ong);
         
         },
     }
